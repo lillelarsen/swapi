@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<title>Star wars API</title>
+	<style>
+		/* Critical styling goes here */
+	</style>
+</head>
+<body>
+	<!-- Start content -->
+	<nav>
+		<ul class="primaryNavigation">
+			<li class="primaryNavigation__navigationItem"><a href="index.html?type=people&page=1"><img src="./img/stormtrooper-01-icon.png" alt="stormtroopers"> People</a></li>
+			<li class="primaryNavigation__navigationItem"><a href="index.html?type=starships&page=1"><img src="./img/millenium-Falcon-01-icon.png" alt="starships"> Starships</a></li>
+			<li class="primaryNavigation__navigationItem"><a href="index.html?type=vehicles&page=1"><img src="./img/Landspeeder-icon.png " alt="vehicles"> Vehicles</a></li>
+			<li class="primaryNavigation__navigationItem"><a href="index.html?type=planets&page=1"><img src="./img/world.png" alt="planets"> Planets</a></li>
+		</ul>
+	</nav>
+	<main></main>
+	<!-- End content -->
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const stylesheet = document.createElement('link');
+			stylesheet.href = 'css/style.css';
+			stylesheet.rel = 'stylesheet';
+			stylesheet.type = 'text/css';
+			document.getElementsByTagName('head')[0].appendChild(stylesheet);
+		});
+	</script>
+	<noscript>
+		<link rel="stylesheet" href="css/style.css">
+	</noscript>
+	<script src="js/app.js" defer></script>
+</body>
+</html>

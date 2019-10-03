@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.personLoad, .starshipLoad, .planetLoad {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    background: black;
+    list-style: none;
+    width: 70%;
+    margin-bottom: 1em;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.buildList {
+    flex-direction: column;
+    width: 100%;
+}

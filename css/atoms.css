@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Geostar+Fill');
+@import url('https://fonts.googleapis.com/css?family=Kosugi');
+
+h1 {
+    font-family: 'Geostar Fill', 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    color: rgb(229, 255, 0);
+}
+h2 {
+    font-family: 'Geostar Fill', 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+p {
+    font-family: 'Kosugi', sans-serif;
+    color: white;
+    text-shadow: 0.5px 0.5px #888;
+}
+nav a, ul a {
+    font-family: 'Geostar Fill', 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+}
+.fa-spinner {
+    position: absolute;
+    bottom: 3em;
+    font-size: 3em;
+    color: azure;
+    z-index: 2;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 1.5em 1em 1.5em;
+    margin: 0;
+    padding: 1em 1.5em 1em 1.5em;
+} 
+.paginationButton {
+    font-family: 'Geostar Fill', 'Trebuchet MS', sans-serif;
+    display: block;
+    color: red;
+}
+.hide {
+    display: none;
+}

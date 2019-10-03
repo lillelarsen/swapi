@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/space.png); 
+
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    shape-margin: 20px;
+    width: 70%;
+    margin-top: 4em;
+}
